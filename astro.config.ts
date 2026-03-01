@@ -19,7 +19,6 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
   site: 'https://leblancns07.github.io',
-  base: '/nickleblanc',
   integrations: [
     tailwind({
       applyBaseStyles: false,
