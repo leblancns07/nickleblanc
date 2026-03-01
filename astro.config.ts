@@ -23,9 +23,6 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'static',
-
-export default defineConfig({
-  output: 'static',
   site: 'https://leblancns07.github.io',
   base: '/nickleblanc', // omit if your repo is named <username>.github.io
   // ...rest of existing config
